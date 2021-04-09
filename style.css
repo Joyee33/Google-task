@@ -1,0 +1,142 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    padding: 1.3rem;
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    margin-left: auto;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-right: 0;
+}
+a:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+nav .dots{
+    height: 19px;
+}
+nav .gmail{
+    height: 35px;
+    margin-top: -9px;
+}
+@media screen and (max-width: 768px){
+    nav{
+        justify-content: space-around;
+        margin-right: 50px;
+    }
+    nav a{
+        font-size: small;
+        margin: 10px;
+    }
+    nav .dots{
+        margin: 10px 10px 0 0;
+
+    }
+    nav .gmail{
+        margin: 1px 0 0 0;
+    }
+}
+main{
+    margin: 4.6em auto;
+    width: 50%;
+    text-align: center;
+}
+
+main img{
+    height: 35vh;
+}
+
+@media screen and (max-width: 768px){
+    main{
+        width: auto;
+    }
+    main img{
+        height: 30vh;
+    }
+}
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border:1px solid gray;
+}
+.btns_container{
+    margin-top: 1em;
+}
+.btns_container button{
+    padding: 1em;
+    border: none;
+}
+
+@media screen and (max-width: 768px){
+    input{
+        width: 60%;
+    }
+    .btns_container button{
+        padding: 0.5em;
+        border: none;
+}
+}
+
+footer{
+    background-color: rgb(224, 221, 221);
+}
+.footer_top{
+    padding: 1rem;
+}
+.footer_bottom{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+.left a{
+    margin-right: 1em;
+}
+.footer_bottom a{
+    margin-right: 15px;
+}
+
+.right a{
+    margin-right: 1em;
+}
+
+@media screen and (max-width: 768px){
+    
+.footer_top{
+    padding: 0.7rem;
+}
+footer{
+    width: 100%;
+}
+
+.footer_top{
+    font-size: small;
+    padding: 1em;
+    margin: 0px 0px 0 10px;
+}
+
+.footer_bottom{
+    font-size: small;
+    padding: 1em;
+    display: list-item;
+    
+}
+.right a{
+    margin:0 0px 0 10px;
+}
+.footer_bottom a{
+    margin:0 0px 0 10px;
+}
+    
+.left a{
+    margin: 0px 0px 20px 10px;
+}
+}
